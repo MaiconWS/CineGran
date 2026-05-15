@@ -1,0 +1,15 @@
+C:\Users\maico\OneDrive\Documents\Dev\CineGran\CineGranV2\CineGran\bin\Debug\net8.0\CineGran.exe
+C:\Users\maico\OneDrive\Documents\Dev\CineGran\CineGranV2\CineGran\bin\Debug\net8.0\CineGran.deps.json
+C:\Users\maico\OneDrive\Documents\Dev\CineGran\CineGranV2\CineGran\bin\Debug\net8.0\CineGran.runtimeconfig.json
+C:\Users\maico\OneDrive\Documents\Dev\CineGran\CineGranV2\CineGran\bin\Debug\net8.0\CineGran.dll
+C:\Users\maico\OneDrive\Documents\Dev\CineGran\CineGranV2\CineGran\bin\Debug\net8.0\CineGran.pdb
+C:\Users\maico\OneDrive\Documents\Dev\CineGran\CineGranV2\CineGran\obj\Debug\net8.0\CineGran.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maico\OneDrive\Documents\Dev\CineGran\CineGranV2\CineGran\obj\Debug\net8.0\CineGran.AssemblyInfoInputs.cache
+C:\Users\maico\OneDrive\Documents\Dev\CineGran\CineGranV2\CineGran\obj\Debug\net8.0\CineGran.AssemblyInfo.cs
+C:\Users\maico\OneDrive\Documents\Dev\CineGran\CineGranV2\CineGran\obj\Debug\net8.0\CineGran.csproj.CoreCompileInputs.cache
+C:\Users\maico\OneDrive\Documents\Dev\CineGran\CineGranV2\CineGran\obj\Debug\net8.0\CineGran.sourcelink.json
+C:\Users\maico\OneDrive\Documents\Dev\CineGran\CineGranV2\CineGran\obj\Debug\net8.0\CineGran.dll
+C:\Users\maico\OneDrive\Documents\Dev\CineGran\CineGranV2\CineGran\obj\Debug\net8.0\refint\CineGran.dll
+C:\Users\maico\OneDrive\Documents\Dev\CineGran\CineGranV2\CineGran\obj\Debug\net8.0\CineGran.pdb
+C:\Users\maico\OneDrive\Documents\Dev\CineGran\CineGranV2\CineGran\obj\Debug\net8.0\CineGran.genruntimeconfig.cache
+C:\Users\maico\OneDrive\Documents\Dev\CineGran\CineGranV2\CineGran\obj\Debug\net8.0\ref\CineGran.dll

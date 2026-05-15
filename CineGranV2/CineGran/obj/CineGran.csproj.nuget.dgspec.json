@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maico\\OneDrive\\Documents\\Dev\\CineGran\\Cinema\\Cinema.csproj": {}
+    "C:\\Users\\maico\\OneDrive\\Documents\\Dev\\CineGran\\CineGranV2\\CineGran\\CineGran.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maico\\OneDrive\\Documents\\Dev\\CineGran\\Cinema\\Cinema.csproj": {
+    "C:\\Users\\maico\\OneDrive\\Documents\\Dev\\CineGran\\CineGranV2\\CineGran\\CineGran.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maico\\OneDrive\\Documents\\Dev\\CineGran\\Cinema\\Cinema.csproj",
-        "projectName": "Cinema",
-        "projectPath": "C:\\Users\\maico\\OneDrive\\Documents\\Dev\\CineGran\\Cinema\\Cinema.csproj",
+        "projectUniqueName": "C:\\Users\\maico\\OneDrive\\Documents\\Dev\\CineGran\\CineGranV2\\CineGran\\CineGran.csproj",
+        "projectName": "CineGran",
+        "projectPath": "C:\\Users\\maico\\OneDrive\\Documents\\Dev\\CineGran\\CineGranV2\\CineGran\\CineGran.csproj",
         "packagesPath": "C:\\Users\\maico\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maico\\OneDrive\\Documents\\Dev\\CineGran\\Cinema\\obj\\",
+        "outputPath": "C:\\Users\\maico\\OneDrive\\Documents\\Dev\\CineGran\\CineGranV2\\CineGran\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maico\\AppData\\Roaming\\NuGet\\NuGet.Config"
