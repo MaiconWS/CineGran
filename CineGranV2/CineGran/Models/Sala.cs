@@ -65,11 +65,10 @@ public class Sala
             }
             Console.WriteLine("Legenda: [ ] Livre,  [X] Ocupada\n");
         }
+    }
 
-        public void ExibirMapa() // Mudança de assinatura para exibir mapa sem controle de ocupação
-        {
-            ExibirMapa(null);
-        }
-
+    public void ExibirMapa() // Mudança de assinatura para exibir mapa sem controle de ocupação
+    {
+        ExibirMapa(null);
     }
 }
