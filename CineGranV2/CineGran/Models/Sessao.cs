@@ -28,6 +28,7 @@ public class Sessao
 
     public bool OcuparPoltrona(char fileira, int poltrona, int idadeEspectador)
     {
+        poltrona -= 1; // Ajusta para índice zero-based
         if (!sala.PoltronaExiste(fileira, poltrona))
         {
                         Console.WriteLine("Poltrona inválida.");
