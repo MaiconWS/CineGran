@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CineGran")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+257bdf2872c96c145b743b007f835590fca97c70")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9d7b3ffd8bf7cb70b1742a7412f64b0de60f128")]
 [assembly: System.Reflection.AssemblyProductAttribute("CineGran")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CineGran")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

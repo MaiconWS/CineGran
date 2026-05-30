@@ -36,11 +36,11 @@ public class Sessao
 
         if (!filme.PodeAssistir(idadeEspectador))
         {
-            Console.WriteLine($"\nAcesso negado! Classificação {filme.ClassificacaoIndicativa} anos.");
+            Console.WriteLine($"\nAcesso negado! Classificação {filme.Classificacao} anos.");
             return false;
         }
 
-        int fileiraIndex = sala.GetFileiraIndex(fileira);
+        int fileiraIndex = sala.GetIndiceFileira(fileira);
         if(poltronasOcupadas[fileiraIndex, poltrona])
         {
             Console.WriteLine($"Poltrona {fileira}{poltrona+1} já ocupada.");
@@ -68,7 +68,6 @@ public class Sessao
         Console.WriteLine($"Detalhes da Sessão:");
         Console.WriteLine($"Filme: {filme.Titulo}!");
         Console.WriteLine($"Horário: {horario:dd/MM/yyyy HH:mm}");
-        Console.WriteLine($"Poltrona: {fileira}{poltrona+1}");
         Console.WriteLine($"Preço do ingresso: R${precoIngresso:F2}");
         Console.WriteLine($"Sala: {sala.QtdeFileiras} fileiras X {sala.QtdePoltronasPorFileira} poltronas por fileira");
 

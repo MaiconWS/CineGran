@@ -1,5 +1,3 @@
-using System.Security.Cryptography.X509Certificates;
-
 namespace Cinema.Models;
 
 public class Sala
@@ -9,9 +7,9 @@ public class Sala
     private int qtdePoltronasPorFileira;
 
     //Construtor para criar um objeto Sala
-    public Sala(int fileiras, int qtdePoltronasPorFileira)
+    public Sala(int qtdeFileiras, int qtdePoltronasPorFileira)
     {
-        this.qtdeFileiras = fileiras;
+        this.qtdeFileiras = qtdeFileiras;
         this.qtdePoltronasPorFileira = qtdePoltronasPorFileira;
     }
 
@@ -35,16 +33,16 @@ public class Sala
     {
         int fileiraIndex = GetIndiceFileira(fileira);
         return fileiraIndex >= 0 && fileiraIndex < qtdeFileiras && 
-            poltrona > 0 && poltrona <= qtdePoltronasPorFileira;
+            poltrona >= 0 && poltrona < qtdePoltronasPorFileira;
     }
 
     public void ExibirMapa(bool[,]? ocupacao)
     {
-        Console.WriteLine("\n=== Mapa de Assentos ===");
+        Console.WriteLine("\n=== MAPA DA SALA ===");
         Console.Write("    ");
         for (int p = 0; p < qtdePoltronasPorFileira; p++)
         {
-            Console.Write($" {p + 1,2} ");
+            Console.Write($" { p + 1,2} ");
         }
         Console.WriteLine();
 
@@ -53,19 +51,16 @@ public class Sala
             Console.Write($" {GetLetraFileira(i)}  ");
             for (int j = 0; j < qtdePoltronasPorFileira; j++)
             {
-                if(ocupacao != null && ocupacao[i, j])
-                {
+                if (ocupacao != null && ocupacao[i, j])
                     Console.Write(" [X] ");
-                }
                 else
-                {
                     Console.Write(" [ ] ");
-                }
-                Console.WriteLine();
             }
-            Console.WriteLine("Legenda: [ ] Livre,  [X] Ocupada\n");
+            Console.WriteLine();
         }
+        Console.WriteLine("Legenda: [ ] = Livre, [X] = Ocupada\n");
     }
+
 
     public void ExibirMapa() // Mudança de assinatura para exibir mapa sem controle de ocupação
     {
